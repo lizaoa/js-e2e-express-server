@@ -21,5 +21,5 @@ steps:
 #   displayName: 'npm install'
 
  - script: |
-     npm -version
+    echo  npm -version
    displayName: 'npm build'
