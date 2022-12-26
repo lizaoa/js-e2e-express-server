@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- test
+- none
 
 pool:
   vmImage: 'windows-latest'
@@ -19,6 +19,6 @@ steps:
     npm install
   displayName: 'npm install'
 
-- script: |
-    npm run build
-  displayName: 'npm build'
+# - script: |
+#     npm run build
+#   displayName: 'npm build'
